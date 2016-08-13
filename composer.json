@@ -1,0 +1,11 @@
+{
+    "name": "inspheric/calendars",
+    "require": {
+        "inspheric/support": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inspheric\\Calendars\\": "src/"
+        }
+    }
+}
