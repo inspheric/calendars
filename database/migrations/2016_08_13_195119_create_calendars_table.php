@@ -17,6 +17,7 @@ class CreateCalendarsTable extends Migration
             $table->increments('id');
             $table->string('name', 50);
             $table->string('display_name')->nullable();
+            $table->text('description')->nullable();
             $table->integer('site_id')->unsigned()->nullable();
             $table->softDeletes();
             $table->timestamps();
